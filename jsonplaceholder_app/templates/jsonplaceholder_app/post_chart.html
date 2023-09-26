@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Chart</title>
+    <!-- Include Plotly.js for rendering the chart -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Number of Posts by User</h1>
+
+    <!-- Place the Plotly chart in a div -->
+    <div id="post-chart">
+        {{ chart_div|safe }}
+    </div>
+
+    <p><a href="{% url 'post_list' %}">Post List</a></p>
+</body>
+</html>
