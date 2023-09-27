@@ -13,4 +13,4 @@ This project demonstrates how to create a simple web application using Python an
 
 ##  Website
 
-This project is hosted on [Python Anywhere](http://lucasace.pythonanywhere.com/jsonplaceholder/post_chart/).
+This project is hosted on [PythonAnywhere](http://lucasace.pythonanywhere.com/jsonplaceholder/post_chart/).
