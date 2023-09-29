@@ -1,13 +1,10 @@
 from django.shortcuts import render
 from .models import Post
+import plotly.graph_objs as go
 
 def post_list(request):
     posts = Post.objects.all()
     return render(request, 'jsonplaceholder_app/post_list.html', {'posts': posts})
-
-import plotly.graph_objs as go
-from django.shortcuts import render
-from .models import Post
 
 def post_chart(request):
     # Retrieve data from the database
